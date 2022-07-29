@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    body{
+        width: 100%;
+        height: 3000px;
+    }
+
+
+
+/*                    H E A D E R      Q I S M I              */
+
+
+.header{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: rgb(66, 46, 66);
+    position: fixed;
+    Z-index: 1;
+}
+
+.header .logo {
+    /* border: 2px solid blue; */
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+.header .logo a{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+    position: absolute;
+    top: 5px;
+    color: white;
+}
+
+.header .logo a:hover{
+    color: red;
+}
+
+.header .menyu{
+    /* border: 2px solid blue; */
+    width: 580px;
+    height: 60px;
+    position: absolute;
+    top: 18px;
+    right: 0;
+}
+
+.header .menyu ul li{
+    /* border: 2px solid blue; */
+    height: 60px;
+    display: inline-block;
+}
+
+.header .menyu ul li a{
+    text-decoration: none;
+    /* position: relative; */
+    margin-right: 50px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+
+/*                    S E C T I O N       1 - Q I S M I              */
+
+.section1 {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 645px;
+    position: relative;
+}
+
+.section1 .bacimg{
+    /* border: 3px solid black; */
+    width: 100%;
+    height: 645px;
+    background-image: url(../img/background.jpg);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section1 .blac{
+    width: 100%;
+    height: 645px;
+    background-color: rgba(26, 5, 26, 0.711);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section1 .welcomebut{
+    /* border: 3px solid red; */
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    top: 240px;
+    right: 290px;
+    text-align: center;
+    color: rgb(240, 227, 227);
+}
+
+.section1 .blac .welcomebut h1{
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(240, 227, 227);
+}
+
+.section1 .blac .welcomebut{
+    font-size: 1.2rem;
+}
+
+.section1 .blac .welcomebut h1 i .i{
+    color: rgb(199, 12, 12);
+}
+
+.section1 .blac .welcomebut .button{
+    border: 0.1rem solid rgb(104, 101, 101);
+    text-decoration: none;
+    position: absolute;
+    top: 145px;
+    left: 340px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 20px;
+    color: rgb(199, 189, 189);
+}
+
+.section1 .blac .welcomebut .button:hover{
+    background-color: rgb(199, 189, 189);
+    color: black;
+}
+
+
+
+                /*          T E X T 3                 */
+
+.text3 {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.text3 .text01{
+    border: inherit;
+    width: 33%;
+    height: 300px;
+    display: inline-block;
+}
+
+.text3 .text02{
+    border: inherit;
+    width: 33%;
+    height: 300px;
+    display: inline-block;
+}
+
+.text3 .text03{
+    border: inherit;
+    width: 33%;
+    height: 300px;
+    display: inline-block;
+}
+
+.text3 ,.porag h3{
+    padding-bottom: 15px;
+}
+
+.porag{
+    padding: 120px 90px 100px 140px;
+}
+
+
+
+/*                    S E C T I O N        2 - Q I S M I              */
+
+.section2 {
+    width: 100%;
+    height: 1020px;
+    background-color: rgb(243, 243, 243);
+    position: relative;
+}
+
+.section2 h2{
+    width: 120px;
+    position: absolute;
+    top: 0;
+    left: 46%;
+    text-align: center;
+    font-family: cursive;
+    padding-top: 50px;
+    border-bottom: 3px solid red;
+}
+
+.section2 .img4{
+    position: absolute;
+    top: 140px;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 900px;
+}
+
+.section2 .img4 .img{
+    width: 450px;
+    height: 350px;
+}
+
+.section2 .img4 .img01{
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.section2 .img4 .img02{
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+
+.section2 .img4 .img03{
+    position: absolute;
+    left: 200px;
+    bottom: 150px;
+}
+
+.section2 .img4 .img04{
+    position: absolute;
+    right: 200px;
+    bottom: 150px;
+}
+
+.section2 form input{
+    border: 2px solid rgb(251, 44, 44);
+    position: absolute;
+    bottom: 55px;
+    left: 580px;
+    padding: 12px 45px 12px 45px;
+    border-radius: 20px;
+    background-color: rgb(251, 44, 44);
+    color: black;
+}
+
+.section2 form input:hover{
+    color: white;
+}
+
+
+
+                /*            C  O R U S E L     Q I Z M I                */
+
+.corusel {
+    position: relative;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 400px;
+}
+
+.corusel div{
+    position: absolute;
+    top: 0;
+    left: 41%;
+    /* border: 2px solid red; */
+    width: 240px;
+    text-align: center;
+}
+
+.corusel div h2{
+    border-bottom: 3px solid red;
+    padding-top: 50px;
+    font-family: cursive;
+}
+
+.corusel .imgcor{
+    /* border: 2px solid red; */
+    position: relative;
+    top: 130px;
+    left: 250px;
+    width: 60%;
+    height: 225px;
+    background-color: rgb(245, 250, 250);
+}
+
+.corusel .imgcor p{
+    text-align: left;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 30px;
+}
+
+.corusel .imgcor p b{
+    font-size: 1.5rem ;
+}
+
+.corusel .imgcor img{
+    position: absolute;
+    border-radius: 50%;
+    top: 100px;
+    left: 30px ;
+    width: 80px;
+    height: 80px;
+}
+
+.corusel .imgcor h3{
+    position: absolute;
+    top: 125px;
+    left: 140px;
+    font-size: 1.3rem;
+}
+
+.textbut{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 180px;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+    background-clip: border-box;
+}
+
+.textbut .baccol{
+    width: 100%;
+    height: 180px;
+    background-color: rgba(26, 5, 26, 0.711);
+}
+
+.textbut .baccol .text{
+    /* border: 2px solid gold; */
+    position: relative;
+    top: 30px;
+    left: 200px;
+    width: 70%;
+    height: 125px;
+}
+
+.textbut .baccol .text h2{
+    position: absolute;
+    color: white;
+    border-bottom: 2px solid red;
+    font-family: cursive;
+}
+
+.textbut .baccol .text p{
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-size: 1.05rem;
+}
+
+.textbut .baccol .text form input{
+    border: 2px solid rgb(251, 44, 44);
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    padding: 11px 30px 11px 30px;
+    border-radius: 20px;
+    background-color: rgb(251, 44, 44);;
+    color: white;
+}

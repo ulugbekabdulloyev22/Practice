@@ -1,0 +1,80 @@
+html{
+    background-color: rgb(213, 229, 243);
+}
+
+.box{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    margin: 1%;
+    margin-top: 70px;
+    background-color: white;
+    box-shadow: 5px 10px 18px #7b7b7b;
+}
+
+.box:hover{
+    box-shadow: 10px 15px 23px rgb(75, 75, 75);
+}
+
+.box1{
+    margin-left: 30px;
+}
+
+.bosh{
+    /* border: 2px solid blue; */
+    height: 250px;
+}
+
+.bosh1{
+    background-color: rgb(110, 110, 252);
+
+    background-image: url(/1-vazifa/rasm/paper.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: 230px 60px;
+}
+
+.bosh2{
+    background-color: rgb(46, 46, 227);
+
+    background-image: url(/1-vazifa/rasm/paynet.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: 230px 60px;
+}
+
+.bosh3{
+    background-color: rgb(102, 250, 85);
+
+    background-image: url(/1-vazifa/rasm/blog2.png);
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: 230px 60px;
+}
+
+h2, p {
+    color: black;
+    margin: 30px;
+    display: inline-block;
+}
+
+p{
+    color: rgb(255, 246, 246);
+}
+
+button{
+    border: 2px solid blue;
+    background-color: white;
+    margin: 50px 0 0 50px;
+    padding: 15;
+    font-family: emoji;
+}
+
+button:hover{
+    color: red;
+    box-shadow: 5px 10px 18px #df6767;
+}
+.tugma{
+    border: 2px solid green;
+}

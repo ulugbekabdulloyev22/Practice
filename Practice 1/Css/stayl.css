@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    /*              H E A D E R               */
+
+.header{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 130px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+.header .logo{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 40px;
+    left: 70px;
+}
+
+.header .logo:hover{
+    transform: scale(1.1);
+}
+
+.header .menyu{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.header .menyu ul li{
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration-line: none; 
+}
+
+.header .menyu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header .menyu ul li a:hover{
+    color: rgb(162, 216, 81);
+    border-bottom: 2px solid;
+    padding-bottom: 4px;
+}
+
+.header .search{
+    position: absolute;
+    top: 30px;
+    right: 60px;
+}
+
+#sech1{
+    padding: 5px 40px 5px 40px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+#sech1:hover{
+    transform: scale(1.1);
+}
+
+#but1{
+    background-color: greenyellow;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 30px;
+}
+
+#but1:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+    /*           S E C T I O N -- 1         */
+
+.section1{
+    position: relative;
+    width: 100%;
+    height: 520px;
+    background-color: rgb(132, 181, 59);
+}
+
+.section1 .text1{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section1 .text1 h1{
+    font-size: 3.2rem;
+    margin-left: 20px;
+    color: rgb(238, 220, 220);
+}
+
+.section1 .text1 p{
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+
+.section1 .imgul{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 0; 
+    right: 0;
+}
+
+.section1 .imgul ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.section1 .imgul ul li .ulimg{
+    /* border: 2px solid blue; */
+    width: 150px;
+    height: 150px;
+    margin: 25px 0 0 10px;
+}
+
+.section1 .imgul ul li .ulimg:hover{
+    transform: scale(1.2);
+}
+
+.section1 .img1{
+    /* border: 2px soli d blue;  */
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+.section1 .img1 img{
+    /* border: 2px solid red; */
+    width: 630px;
+    height: 290px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.section1 .textimg{
+    /* border: 2px solid red; */
+    background-color: rgb(50, 49, 49);
+    width: 640px;
+    height: 290px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.section1 .textimg .text{
+    position: absolute;
+    /* border: 2px solid blue; */
+    width: 45%;
+    height: 290px;
+    padding-left: 20px;
+}
+
+.section1 .textimg .text h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.section1 .textimg .text p{
+    color: rgb(238, 220, 220);
+}
+
+.section1 .textimg .text form input{
+    border: 2px solid rgb(38, 33, 33);
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    right: 30px;
+    bottom: 25px;
+    background-color: rgb(38, 33, 33);
+    color: rgb(62, 146, 27);
+    border-radius: 10px;
+}
+
+.section1 .textimg .img {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 290px;
+}
+
+.section1 .textimg .img img {
+    /* border: 2px solid blue; */
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+
+    /*           S E C T I O N -- 2         */
+
+.section2{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 520px;
+    position: relative;
+    background-color: rgb(211, 211, 211);
+}
+
+.section2 .box{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    width: 32.99%;
+    height: 520px;
+    position: sticky;
+}
+
+.section2 .box h2{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.section2 .box hr{
+    margin: 0 20px 0 20px;
+    padding: 0.7px;
+    background-color: black;
+}
+
+.section2 .box p{
+    padding: 15px 20px 0 20px;
+}
+
+.section2 .box img{
+    /* border: 2px solid yellow; */
+    width: 400px;;
+    height: 300px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.section2 .box img:hover{
+    transform: scale(1.1);
+}
+
+
+    /*              F O O T E R            */
+
+.footer{
+    /* border: 2px solid gold; */
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.footer .box{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: relative;
+    width: 19%;
+    height: 200px;
+    margin-left: 5px;
+}
+
+.footer .box1{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    width: 39%;
+    height: 200px;
+}
+
+.footer .box1 h2{
+    padding: 18px 0 18px 20px ;
+}
+
+.footer .box1 hr{
+    padding: 0 0 1px 0;
+    margin: 0 20px 10px 20px;
+    background-color: black;
+}
+
+.footer .box1 p{
+    padding: 0px 0 0 20px;
+}
+
+.footer .box1 form{
+    padding: 20px 0px 25px 20px;
+}
+
+.footer .box00{
+    position: absolute;
+    top: 0;
+    left: 540px;
+}
+
+.footer .box02{
+    position: absolute;
+    top: 0;
+    left: 810px;
+}
+
+.footer .box01{
+    position: absolute;
+    top: 0;
+    left: 1080px;
+}
+
+.footer .box2 h2{
+    padding: 20px 0 15px 20px;
+}  
+
+.footer .box2 hr{
+    padding: 0 0 1px 0;
+    margin: 0 20px 10px 20px;
+    background-color: black;
+}
+
+.footer .box2 p{
+    padding: 0px 0 0 20px;
+}
+
+.footer .box1 .insech{
+    padding: 2px 20px 2px 30px; 
+    border-radius: 10px;
+}
+
+.footer .box1 .inbut{
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    padding: 2px 20px 2px 20px;
+    background-color: greenyellow;
+    color: white;
+}
+
