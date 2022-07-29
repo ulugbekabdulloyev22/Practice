@@ -191,10 +191,10 @@
 }
 
 .section2 h2{
-    width: 120px;
+    width: 150px;
     position: absolute;
     top: 0;
-    left: 46%;
+    left: 45%;
     text-align: center;
     font-family: cursive;
     padding-top: 50px;
@@ -365,4 +365,60 @@
     border-radius: 20px;
     background-color: rgb(251, 44, 44);;
     color: white;
+}
+
+
+            /*          A B O U T        Q I S M I   */
+
+.about{
+    position: relative;
+    /* border: 2px soli d red; */
+    width: 100%;
+    height: 400px;
+}
+
+.about h2 {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    padding-top: 50px;
+    border-bottom: 3px solid red;
+    /* border: inherit; */
+    font-family: cursive;
+    width: 120px;
+    text-align: center;
+}
+
+.about p{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+    /* border:inherit; */
+    width: 450px;
+    height: 250px;
+    font-size: 1.05rem;
+    color: rgb(104, 104, 104);
+}
+
+.about .pro{
+    /* border: inherit; */
+    width: 40%;
+    height: 150px;
+    position: absolute;
+    top: 130px;
+    right: 60px;
+    font-family: cursive;
+}
+
+.about .pro div{
+    /* border: inherit; */
+    display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.about .pro div h1{
+    font-size: 3.1rem;
+    color: red;
+    font-family: auto;
 }
