@@ -358,7 +358,7 @@
 
 .textbut .baccol .text form input{
     border: 2px solid rgb(251, 44, 44);
-    position: absolute;
+/*     position: absolute; */
     top: 40px;
     right: 10px;
     padding: 11px 30px 11px 30px;
