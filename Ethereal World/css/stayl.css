@@ -70,6 +70,17 @@ body{
     margin-right: 50px;
     font-size: 1.2rem;
     color: white;
+    padding: 25px 0px;
+}
+
+.header .menyu ul li a:hover{
+    border-bottom: 2px solid red;
+    background-color: grey;
+}
+
+.header .menyu ul li a:nth-child(){
+    border-bottom: 2px solid red;
+    
 }
 
 
@@ -183,6 +194,30 @@ body{
     padding: 120px 90px 100px 140px;
 }
 
+.text3 .text01 .fa-regular{
+    font-size: 1.5rem;
+    color: red;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+.text3 .text02 .fa-regular{
+    font-size: 1.5rem;
+    color: red;
+    position: absolute;
+    top: 140px;
+    left: 545px;
+}
+
+.text3 .text03 .fa-regular{
+    font-size: 1.5rem;
+    color: red;
+    position: absolute;
+    top: 140px;
+    left: 1000px;
+}
+
 
 
 /*                    S E C T I O N        2 - Q I S M I              */
@@ -250,10 +285,6 @@ body{
     padding: 12px 45px 12px 45px;
     border-radius: 20px;
     background-color: rgb(251, 44, 44);
-    color: black;
-}
-
-.section2 form input:hover{
     color: white;
 }
 
