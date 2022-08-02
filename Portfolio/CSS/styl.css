@@ -1,5 +1,120 @@
-.row .col{
-    margin: 10px;
-    background-color: red;
-    color: white;
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --Playfair: "Playfair Display", serif;
+  --Quicksand: "Quicksand", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --ochqora: #3c393d;
+  --toqqora: #2b2b2b;
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--Quicksand);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.4;
+  color: var(--ochqora);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.header {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0, 0.4), rgba(0,0,0, 0.55)), url(../img/banner-bg.jpg) center/cover no-repeat fixed;
+}
+.header .navbar{
+    background-color: rgb(0,0,0, 0.6);
+    padding: 1.2rem;
+}
+.header .navbar .navigation{
+    display: flex;
+    justify-content:space-between;
+}
+.header .navbar .navigation .logo{
+    font-size: 1.9rem;
+    padding: 0 1.8rem;
+}
+.header .navbar .navigation .logo a{
+        color: #fff;
+        text-decoration: none;
+        font-family: var(--Playfair);
+        transition: all 3s ease;
+}
+
+.header .navbar .navigation .navbar-nav{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.header .navbar .navigation .navbar-nav a{
+    text-decoration: none;
+    font-family: var(--Playfair);
+    display: inline-block;
+    padding: 0 1.2rem;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+}
+.navbar .navigation .navbar-nav a:hover{
+    color: rgba(51, 255, 0, 0.42);
+    opacity: 0.7s;
+}
+
+.header .banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20vh;
+    font-size: 1.2  rem;
+    font-family: var(--Roboto);
+}
+.header .banner .container h1 span{
+    font-size: 5.5rem;
+    font-family: var(--Playfair);
+    color: var(--toqqora);
+}
+.header .banner .container h1 .span, p{
+    color: #fff;
+}
+.header .banner .container .banner-title p{
+    margin: 10px;
+}
+.header .banner .container form{
+    background-color: #fff;
+    margin: 20px;
+    margin-left: 80px;
+    width: 500px;
+    border-radius: 50px;
+    padding: 10px;  
+    display: flex;
+    justify-content:space-between;
+}
+.header .banner .container form input{
+    font-family: var(--Roboto);
+    font-size: 1.2rem;
+    outline: none;
+    padding: 0.5rem 0;
+    border: none;
+    width: 420px;
+}
+.header .banner .container form button{
+    font-size: 1.5rem;
+    margin-right: 15px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.search-input::placeholder{
+    text-transform: capitalize;
+  } 
