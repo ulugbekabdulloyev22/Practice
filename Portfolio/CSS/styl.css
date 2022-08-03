@@ -16,6 +16,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: proximity;
 }
 
 body {
@@ -117,4 +118,106 @@ img {
 
 .search-input::placeholder{
     text-transform: capitalize;
-  } 
+  }  /* End of Header */
+
+  /* Section 1 start */
+  .section-1{
+    width: 100vw;
+  }
+  .section-1 .art-title{
+    padding: 80px;
+    display: grid;
+    justify-content:center;
+    text-align: center;
+    font-family: var(--Quicksand);
+  }
+  .section-1 .art-title h1{
+    font-size: 3rem;
+    padding: 10px;
+    color: var(--toqqora);
+  }
+  .section-1 .art-title p{
+    color: var(--ochqora);
+  }
+  .section-1 .container{
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    font-family: var(--Playfair);
+    width: 30vw;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  .section-1 .Art-img img{
+    transition: all .7s ease;
+    height: 70vh;
+    opacity: 0.75;
+  }
+  .section-1 .container .Art-img img:hover{
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  .section-1 .container i{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background-color: #2b2b2b;
+    padding: 10px;
+    margin: 10px;
+  }
+  .section-1 .container h3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    padding: 10px;
+  }
+  .arts-designs{
+    display: flex;
+  }
+  .arts-designs .box{
+    width: 420px;
+    margin: 18px;
+  }
+  .arts-designs p{
+    font-size: 1.1rem;
+    font-family: var(--Roboto);
+    text-align: center;
+    color: #2b2b2b;
+    position: relative;
+    top: 0;
+    padding: 20px;
+  } /* End of Section 1*/
+
+  /* Section 2 start */
+  .section-2{
+    width: 100vw;
+  }
+  .section-2 .art-title{
+    padding: 80px;
+    display: grid;
+    justify-content:center;
+    text-align: center;
+    font-family: var(--Quicksand);
+  }
+  .section-2 .art-title h1{
+    font-size: 3rem;
+    padding: 10px;
+    color: var(--toqqora);
+  }
+  .section-2 .art-title p{
+    color: var(--ochqora);
+  }
+  .section-2 .container{
+    position: relative;
+  }
+  .section-2 .container .cont-img img{
+    width: 30vw;
+    position: absolute;
+  }
+  .section-2 .container .box i{
+    position: absolute;
+    right: 0;
+    color: white;
+    background: var(--toqqora);
+  }
