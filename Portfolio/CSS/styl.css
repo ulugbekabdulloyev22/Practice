@@ -208,16 +208,27 @@ img {
   .section-2 .art-title p{
     color: var(--ochqora);
   }
-  .section-2 .container{
+  .section-2 .container .box{
     position: relative;
   }
-  .section-2 .container .cont-img img{
+  .section-2 .container .box .cont-img{
     width: 30vw;
-    position: absolute;
+    height: 100vh;
+    position: relative;
+    margin: 20px;
+    display: inline-block;
   }
-  .section-2 .container .box i{
+  .section-2 .container .box .cont-img i{
     position: absolute;
     right: 0;
+    bottom: 0;
+    padding: 10px 20px;
+    background-color: #3c393d;
     color: white;
-    background: var(--toqqora);
+    font-size: 1.2rem;
+    margin: 15px;
   }
+  .section-2 .container .box .cont-img i:hover{
+    color: red;
+  }
+  
